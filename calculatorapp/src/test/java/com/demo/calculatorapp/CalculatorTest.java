@@ -10,7 +10,11 @@ public class CalculatorTest {
 
     Calculator cal = new Calculator();
 
-    @Test
+    // @Test
+    // void testAdd() {
+    //     assertEquals(15, cal.add(10,5));
+    // }
+     @Test
     void testAdd() {
         assertEquals(15, cal.add(10,5));
     }
