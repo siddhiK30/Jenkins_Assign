@@ -17,6 +17,7 @@ public class CalculatorTest {
      @Test
     void testAdd() {
         assertEquals(15, cal.add(10,5));
+        System.out.println("failed");
     }
 
     @Test
